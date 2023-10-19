@@ -1,0 +1,401 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.header-container {
+    background: url(img/bg.png) no-repeat;
+    height: 787px;
+}
+
+.logo {
+    width: 245px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+
+.header-container h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    color: white;
+    width: 480px;
+    font-size: 60px;
+    position: relative;
+    top: 290px;
+    margin: 0 auto;
+}
+
+.header-container p {
+    color: white;
+    width: 380px;
+    font-size: 16px;
+    margin: 0 auto;
+    position: relative;
+    top: 290px;
+}
+
+.main-header {
+    border-bottom: gray 1px solid;
+}
+
+.main-logo {
+    margin-top: 22px;
+    margin-left: 250px;
+}
+
+.topnav li {
+    display: inline-block;
+    position: relative;
+    left: 850px;
+    top: -36px;
+}
+
+.topnav a {
+    color: #48555b;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.topnav a:hover {
+    color: #00a4e5;
+}
+
+.our-story {
+    margin: 63px 250px 123px 250px;
+}
+
+.story-block {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left-story{
+    margin: 0;
+    width: 490px;
+}
+
+.our-story h2 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 22px;
+    color: #48555b;
+}
+
+.our-story h2:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    padding-top: 15px;
+    border-bottom: 2px solid;
+    color: #00a4e5;
+}
+
+.left-story h1 {
+    color: #48555b;
+    margin-bottom: 78px;
+    font-size: 24px;
+}
+
+span {
+    color: #00a4e5;
+}
+
+.left-story p {
+    color: #48555b;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.right-story {
+    position: relative;
+    bottom: -25px;
+}
+
+.our-capabilities {
+    margin: 0 390px;
+}
+
+.main-cap h2 {
+    text-align: left;
+    margin-bottom: 80px;
+    font-size: 22px;
+    color: #48555b;
+    margin: 0;
+    margin-right: 190px;
+    margin-bottom: 80px;
+    display: inline-block;
+    position: relative;
+    top: -16px;
+}
+
+.main-cap h2:after {
+    content: "";
+    display: block;
+    width: 50px;
+    padding-top: 15px;
+    border-bottom: 2px solid;
+    color: #00a4e5;
+}
+
+.main-cap p {
+    color: #48555b;
+    font-size: 14px;
+    line-height: 23px;
+    display: inline-block;
+    margin-right: 48px;
+}
+
+.main-cap a {
+    padding: 12px 36px;
+    background-color: #00a4e5;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    top: -8px;
+}
+
+.card-block {
+    display: flex;
+}
+
+.card {
+    margin-right: 110px;
+}
+
+.build-container  {
+     background: url(img/bg-2.png) no-repeat;
+     height: 1022px;
+}
+
+.build-container h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #48555b;
+    margin-bottom: 40px;
+    position: relative;
+    top: 490px;
+}
+
+.build-container a {
+    padding: 12px 34px;
+    background-color: #00a4e5;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 auto;
+    position: relative;
+    top: 490px;
+    display: block;
+    width: 100px;
+    height: 18px;
+}
+
+.sign-up {
+    background-color: #171819;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up h2 {
+    color: white;
+    display: inline-block;
+    margin-right: 78px;
+}
+
+.sign-up input {
+    border: none;
+    outline: none;
+    width: 248px;
+    height: 40px;
+    margin-top: 14px;
+}
+
+.sign-up button {
+    background-color: #00a4e5;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 0 60px;
+    height: 42px;
+    margin-top: 14px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: #141A20;
+}
+
+.container {
+    margin: 29px 0 50px 0;
+}
+
+.container:first-child {
+    margin-left: 120px;
+}
+
+.container p {
+    color: white;
+    margin: 0;
+    line-height: 1.5;
+    margin-top: 17px;
+}
+
+.container a {
+    color: white;
+    display: block;
+    margin-top: 17px;
+    font-weight: 600;
+}
+
+.container a:hover {
+    color: #00a4e5;
+}
+
+.container img {
+    margin: 22px 0 25px 0;
+}
+
+#small-container {
+    position: relative;
+    top: 42px;
+}
+
+.container:last-child a {
+    display: inline-block;
+    margin-left: 25px;
+    position: relative;
+    top: 22px;
+    left: -34px;
+}
+
+@media screen and (max-width: 890px) {
+.our-capabilities {
+    margin: 0;
+}
+
+.sign-up input {
+    width: auto;
+}
+
+.footer {
+    grid-template-columns: auto;
+}
+
+.container:first-child {
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 48px;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 1670px) {
+
+.main-cap h2 {
+    margin-bottom: 0;
+}
+
+.main-cap p {
+    margin-bottom: 28px;
+}
+
+}
+
+@media screen and (max-width: 1525px) {
+
+.main-logo {
+    margin-top: 22px;
+    margin-left: 0;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav {
+    display: none;
+}
+
+.story-block {
+    grid-template-columns: auto;
+}
+
+.our-story {
+    margin: 63px 0 123px 0;
+}
+
+.left-story {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-story {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-capabilities {
+    margin: 0;
+}
+
+.main-cap h2 {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.main-cap h2::after {
+    margin: 0 auto;
+}
+
+.main-cap p {
+    display: block;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 48px;
+}
+
+.main-cap a {
+    margin: 0 auto;
+    width: 95px;
+    height: 18px;
+    display: block;
+}
+
+.card-block {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin-bottom: 18px;
+    margin-right: 0;
+}
+
+.card:first-child {
+    margin-top: 28px;
+}
+
+.card:last-child {
+    margin: 0;
+}
+
+}
